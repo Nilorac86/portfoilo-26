@@ -31,20 +31,20 @@
             <nav class="fontMontserrat">
         
             <ul class="navMenu"> 
-                <li><a href="#aboutme">Om mig</a></li>
-                <li><a href="#project">Projekt</a></li>
-                <li><a href="#contact">Kontakt</a></li>
+                <li><a href="#" data-target="aboutMeContainer">Om mig</a></li>
+                <li><a href="#" data-target="projectContainer">Projekt</a></li>
+                <li><a href="#" data-target="contactContainer">Kontakt</a></li>
             </ul> 
             </nav>
         </nav>
 
 
         <main>
-            <section class="aboutMeBox">
+            <section class="page aboutMeBox" id="aboutMeContainer">
     
                     <img class ="picture" src="..//Assets/Images/IMG_3698.webp" alt="Porträtt">
             
-            <div class="aboutMe" id="aboutme">
+            <div class="aboutMe">
                 <p class="fontMontserrat">Hej!<br>
                     <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu ornare leo, 
                     sed dignissim mi. Cras sed augue hendrerit, rhoncus mi a, ultricies nulla. 
@@ -59,7 +59,7 @@
             
         </section>
         
-        <section>
+        <section class="page hidden project" id="projectContainer">
             <h3 class="h3fontDellaRespira" id="project">Mina projekt</h3>
             
             <div class="projectBox">
@@ -88,7 +88,7 @@
             </div>
         </section>
         
-        <section>
+        <section class="page hidden contact" id ="contactContainer">
             <h3 class="h3fontDellaRespira" id="contact">Kontakta mig</h3>
            
             <div class="contactBox"> 

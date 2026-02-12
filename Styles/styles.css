@@ -1,8 +1,14 @@
 :root{
   font-size: 16px;
+  --color-beige-100: #eae7e2;
+  --color-beige-200:#BCB7AE;
+  --color-beige-300:#837f78;
+  --color-black:#000000;
+  --color-white:#ffff;
+
 }
 body{
-    background-color:#D1CDC7;
+    background:var(--color-beige-100);
     margin: 0;
     padding: 0;  
 }
@@ -18,7 +24,7 @@ header{
   width:100vw;
   display: flex;               
   justify-content: center;     
-  background-color: black;  
+  background-color: var(--color-black);  
   padding: 13px 0px;          
 }
 
@@ -31,12 +37,12 @@ header{
 
 .navMenu a {
   text-decoration: none;      
-  color: #BCB7AE;  
+  color: var(--color-beige-200);  
   padding:0px 46px;          
 }
 
 .navbar a:hover{
-  color:#837f78;
+  color:var(--color-beige-300);
 }
 
 .aboutMeBox{
@@ -46,7 +52,7 @@ header{
   flex-direction: row-reverse;
   justify-content:space-evenly; 
   align-items: center;
-  background-color:#D1CDC7;
+  /*background-color:var(--color-beige-200);*/
   margin-top: 30px;
   margin-bottom: 15%;
 }
@@ -55,7 +61,6 @@ header{
   width: 40%;
   height:100%;
   text-align:start;
-  background-color: #D1CDC7;
   overflow:auto;
 }
 
@@ -83,10 +88,10 @@ header{
   display:flex;
   align-items:center;
   text-align: center;
-  background-color: #BCB7AE;
+  background-color: var(--color-beige-200);
   border-radius: 10px;
   gap: 30%;
-  box-shadow: 4px 4px 6px 3px #8A847A;
+  box-shadow: 4px 4px 6px 3px var(--color-beige-300);
 }
 
 .iconProject {
@@ -115,7 +120,7 @@ header{
 
 
 .contactBox{
-  background-color: #D1CDC7;
+  background-color: var(--color-beige-100);
   width: 100%;
   height: auto;
   display: flex;
@@ -127,7 +132,7 @@ header{
 }
 
 #contactForm{
-  background-color: #D1CDC7;
+  background-color: var(--color-beige-100);
   height: auto;
   width:100vw;
   display: flex;
@@ -140,29 +145,29 @@ header{
   width: 40%;
   height: 40px;
   border-radius: 10px;
-  border: 1px solid black;
+  border: 1px solid var(--color-black);
 }
 
 #userMessage{
   width:40%;
   height: 80px;
   border-radius: 10px;
-  border: 1px solid black;
+  border: 1px solid var(--color-black);
 }
 
 #button{
   height: 40px;
   width:100px;
-  background-color: white;
+  background-color: var(--color-white);
   border-radius: 10px;
-  border: 1px solid black;
+  border: 1px solid var(--color-black);
 }
 
 footer{
   display: flex;
   justify-content: end;
   align-items: center;
-  background-color: #D1CDC7;
+  background-color: var(--color-beige-100);
   margin-right:20px;
 }
 

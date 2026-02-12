@@ -1,5 +1,6 @@
 
 const pages = document.querySelectorAll('.page');
+const navLinks = document.querySelectorAll('nav a[data-target]')
 
 
 function showPage(pageId){
@@ -7,6 +8,11 @@ function showPage(pageId){
     document.getElementById(pageId).classList.remove('hidden');
 }
 
-document.getElementById('toPage1').addEventListener('click', () => showPage('aboutme'));
-document.getElementById('toPage2').addEventListener('click', () => showPage('project'));
-document.getElementById('toPage3').addEventListener('click', () => showPage("contact"));
+
+navLinks.forEach(link => {
+    link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const target = link.dataset.target;
+        showPage(target);
+    });
+});
