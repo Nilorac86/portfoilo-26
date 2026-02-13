@@ -20,10 +20,9 @@
 
 
     <body>
-        
         <header>
             <h1 class="h1dellaRespira">Carolin Eriksson</h1>
-            <h2 class="h2FontMontserrat">Fullstackutvecklare</h2>
+            <h2 class="h2FontMontserrat">Full-Stack Developer</h2>
         </header>
 
 
@@ -31,9 +30,9 @@
             <nav class="fontMontserrat">
         
             <ul class="navMenu"> 
-                <li><a href="#" data-target="aboutMeContainer">Om mig</a></li>
-                <li><a href="#" data-target="projectContainer">Projekt</a></li>
-                <li><a href="#" data-target="contactContainer">Kontakt</a></li>
+                <li><a href="#" data-target="aboutMeContainer">About Me</a></li>
+                <li><a href="#" data-target="projectContainer">Project</a></li>
+                <li><a href="#" data-target="contactContainer">Contact</a></li>
             </ul> 
             </nav>
         </nav>
@@ -59,43 +58,57 @@
             
         </section>
         
-        <section class="page hidden project" id="projectContainer">
-            <h3 class="h3fontDellaRespira" id="project">Mina projekt</h3>
+        <section class="page hidden" id="projectContainer">
+            <h3 class="h3fontDellaRespira" id="project">Projects</h3>
             
             <div class="projectBox">
 
                 <div class="project" >
-                    <a href="#" class="iconProject" id="figma"></a>
-                      
-                    </a>
-                    <h4 class="h4fontMontserrat">FIGMA</h4>
+                    <div class="iconProjectBox">
+                        <a href="#" class="iconProject" id="figma"></a> 
+                    </div>
+                    <div class="projectTextBox">
+                        <h4 class="h4fontMontserrat">Coctail Api</h4>
+                    </div>    
                 </div>
 
                 <div class="project">
-                    <a href="#" class="iconProject" id="css"></a>
-                    <h4 class="h4fontMontserrat">CSS</h4>
+                    <div class="iconProjectBox">
+                        <a href="#" class="iconProject" id="css"></a>
+                    </div>
+                    <div class="projectTextBox">
+                        <h4 class="h4fontMontserrat">To Do List</h4>
+                    </div>
                 </div>
                      
                 <div class="project">
-                    <a href="#" class="iconProject" id="html"></a>
-                    <h4 class="h4fontMontserrat">HTML</h4>
+                    <div class="iconProjectBox">
+                        <a href="#" class="iconProject" id="html"></a>
+                    </div>
+                    <div class="projectTextBox">
+                        <h4 class="h4fontMontserrat">Library</h4>
+                    </div>    
                 </div>
 
                 <div class="project">
-                    <a href="#" class="iconProject" id="javascript"></a>
-                    <h4 class="h4fontMontserrat">JAVASCRIPT</h4>
+                    <div class="iconProjectBox">
+                        <a href="#" class="iconProject" id="javascript"></a>
+                    </div>
+                    <div class="projectTextBox">
+                        <h4 class="h4fontMontserrat">Shop</h4>
+                    </div>    
                 </div>
             </div>
         </section>
         
         <section class="page hidden contact" id ="contactContainer">
-            <h3 class="h3fontDellaRespira" id="contact">Kontakta mig</h3>
+            <h3 class="h3fontDellaRespira" id="contact">Contact</h3>
            
             <div class="contactBox"> 
                 <form id="contactForm">
                     
                     <input class="userInfo" type="text" name="name"
-                        placeholder="Namn:" required id="name">
+                        placeholder="Name:" required id="name">
 
                     <input class="userInfo" type="email" name="email" 
                         placeholder="E-mail:" required id="email">
@@ -104,14 +117,14 @@
                     <textarea id="userMessage"  name="message" 
                         placeholder="Meddelande:" required="" id="message"></textarea>
                         
-                    <button id="button" type="submit">Skicka</button>  
+                    <button id="button" type="submit">Send</button>  
                 </form>
             </div>
         </section>
 
             <footer>
                 <a href="#" class="icon" id="instagram"></a>
-                <a href="#" class="icon" id="linkedin"></a>
+                <a href= "https://www.linkedin.com/in/carolin-eriksson/" class="icon" id="linkedin" target="_blank" rel="noopener noreferrer"></a>
                 <a href="#" class="icon" id="facebook"></a>
             </footer>
         
