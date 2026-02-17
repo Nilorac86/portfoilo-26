@@ -1,12 +1,12 @@
 :root{
   font-size: 16px;
-  --color-beige-100: #eae7e2;
-  --color-beige-200:#BCB7AE;
-  --color-beige-300:#837f78;
-  --color-black:#000000;
-  --color-white:#ffff;
-
+  --color-beige-100: #f5f2ec;  
+--color-beige-200:   #e3dcd1;  
+--color-beige-300: #cfc5b6;  
+--color-black: #1c1c1c;      
+--color-white: #ffffff;
 }
+
 body{
     background:var(--color-beige-100);
     margin: 0;
@@ -70,7 +70,12 @@ header{
   border-radius: 20px;
 }
 
+#projectContainer{
+background: var(--color-beige-100);
+
+}
 .projectBox{
+  
   width: 100%;
   height: auto;
   display: flex;
@@ -80,6 +85,7 @@ header{
   margin-bottom: 15%;
 }
 
+
 .project{
   width:70%;
   /*max-width:800px ;*/
@@ -88,15 +94,15 @@ header{
   display:flex;
   justify-content: space-evenly;
   align-items:center;
-  /*text-align: center;*/
   background-color: var(--color-beige-200);
   border-radius: 10px;
   gap: 2rem;
   box-shadow: 4px 4px 6px 3px var(--color-beige-300);
 }
 
+
 .projectTextBox{
-  background: white;
+  /*background:var()--color-white;*/
   display: flex;
   padding-left: 1rem;
   text-align: left;
@@ -107,7 +113,7 @@ header{
 
 .iconProjectBox{
   align-items: center;
-  background: white;
+  background: var(--color-white);
   display: flex;
   justify-content: center;
   height: 80%;
