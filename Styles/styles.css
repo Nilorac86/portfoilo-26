@@ -4,7 +4,7 @@
 --color-beige-200:   #e3dcd1;  
 --color-beige-300: #cfc5b6;  
 --color-black: #1c1c1c;      
---color-white: #ffffff;
+--color-white: #eeece5;
 }
 
 body{
@@ -72,6 +72,7 @@ header{
 
 #projectContainer{
 background: var(--color-beige-100);
+margin-top: 7%;
 
 }
 .projectBox{
@@ -83,6 +84,7 @@ background: var(--color-beige-100);
   align-items: center;
   row-gap: 3rem;
   margin-bottom: 15%;
+  margin-top: 7%;
 }
 
 
@@ -114,6 +116,7 @@ background: var(--color-beige-100);
 .iconProjectBox{
   align-items: center;
   background: var(--color-white);
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   height: 80%;
